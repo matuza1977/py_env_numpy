@@ -9,16 +9,16 @@ python -c "import numpy; import pandas; print('NumPy:', numpy.__version__, 'Pand
 touch main.py  # Cria um arquivo chamado "main.py"
 open main.py  # Abre o arquivo no editor padrão (ou use "code main.py" se tiver o VS Code)
 
-  import numpy as np
-  import pandas as pd
+    import numpy as np
+    import pandas as pd
 
-  # Criando um array NumPy
-  array = np.array([1, 2, 3, 4, 5])
-  print("Array NumPy:", array)
+    # Criando um array NumPy
+    array = np.array([1, 2, 3, 4, 5])
+    print("Array NumPy:", array)
 
-  # Criando um DataFrame Pandas
-  df = pd.DataFrame({'Coluna A': [10, 20, 30], 'Coluna B': [40, 50, 60]})
-  print("DataFrame Pandas:\n", df)
+    # Criando um DataFrame Pandas
+    df = pd.DataFrame({'Coluna A': [10, 20, 30], 'Coluna B': [40, 50, 60]})
+    print("DataFrame Pandas:\n", df)
 
 
 python main.py
